@@ -1,13 +1,20 @@
 #include <stdio.h>
 
+#define NUM_OF_CONTINENTS 7
+
 void continents(void) {
-	printf("Hello, Africa\n");
-	printf("Hello, Antarctica\n");
-	printf("Hello, Asia\n");
-	printf("Hello, Australia\n");
-	printf("Hello, Europe\n");
-	printf("Hello, North America\n");
-	printf("Hello, South America\n");
+	const char *continents[NUM_OF_CONTINENTS];
+	continents[0] = "Africa";
+	continents[1] = "Antarctica";
+	continents[2] = "Asia";
+	continents[3] = "Australia";
+	continents[4] = "Europe";
+	continents[5] = "North America";
+	continents[6] = "South America";
+
+	for (int i=0; i<NUM_OF_CONTINENTS; i++){
+		printf("Hello, %s\n", continents[i]);
+	}
 	printf("\n");
 }
 
