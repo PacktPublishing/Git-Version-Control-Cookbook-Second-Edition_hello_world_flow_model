@@ -18,12 +18,21 @@ void continents(void) {
 	printf("\n");
 }
 
+char* world(void) {
+	static char world[] = "world";
+	return 	world;
+}
+
+void do_print(char *string){
+	printf("Hello, %s\n", string);
+}
 
 int main(void) {
+
 	/* Say hello to all the continents */
 	continents();
 
-	printf("Hello, world\n");
+	do_print(world());
 
 	return 0;
 }
