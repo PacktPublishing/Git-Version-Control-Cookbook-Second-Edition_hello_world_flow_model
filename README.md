@@ -9,10 +9,10 @@ The repository will follow the development model of git flow
 ---
 
 # INFO
-Use the `do_print` function for printing
 
-# The Incredible Features:
+## The Incredible Features:
 Prints a `Hello` statement to each continent
+Use the `do_print` function for printing
 
 Prints `Hello, world`
 
