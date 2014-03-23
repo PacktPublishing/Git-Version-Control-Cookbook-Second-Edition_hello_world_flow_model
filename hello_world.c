@@ -19,7 +19,7 @@ void continents(void) {
 }
 
 char* world(void) {
-	static char world[] = "world";
+	static char world[] = "World";
 	return 	world;
 }
 
